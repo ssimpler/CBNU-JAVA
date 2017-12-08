@@ -12,7 +12,7 @@ public class Logout {
 		 Connection conn;
 		 boolean LogCheck=false;
 	        try{
-	            conn=DriverManager.getConnection("jdbc:mysql://"+New_Client.DBIP+":3306/TingTalk","root","dnfxmfk8");
+	            conn=DriverManager.getConnection("jdbc:mysql://"+New_Client.DBIP+":3306/TingTalk","root","rla13971");
 	            //Mysql은 기본 포트가 3306
 	            System.out.println("---------------------");
 	            System.out.println("로그 아웃 DB접속 성공");
@@ -37,9 +37,5 @@ public class Logout {
 	      {
 	           System.out.println("DB접속 오류 "+e);
 	      }
-	        
-	 
-	
 	}
-
 }

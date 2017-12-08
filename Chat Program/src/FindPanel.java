@@ -176,7 +176,7 @@ public class FindPanel extends JFrame{
 				        	if(!InfoCut[0].equals("")){
 				        	
 				    		 try {	        		  
-				    			 conn = DriverManager.getConnection("jdbc:mysql://"+New_Client.DBIP+":3306/TingTalk","root","dnfxmfk8");	
+				    			 conn = DriverManager.getConnection("jdbc:mysql://"+New_Client.DBIP+":3306/TingTalk","root","rla13971");	
 
 				    			 PreparedStatement ps1 = null;
 				    			 ResultSet rs1 = null;
